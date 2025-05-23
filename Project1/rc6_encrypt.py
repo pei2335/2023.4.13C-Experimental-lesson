@@ -105,7 +105,6 @@ def encrypt(sentence,s):
 
 
 def main():
-    print("ENCRYPTION: ")
     key = input("Enter Key(0-16 characters): ")
     if len(key) <16:
         key = key + " "*(16-len(key))
